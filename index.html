@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script src="https://use.fontawesome.com/b80c88bff0.js"></script>
+    <script src="https://kit.fontawesome.com/c41f82d981.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Akshay-Kashid-Portfolio</title>
+</head>
+
+<body>
+    <div id="root">
+        <!-- Navigation start -->
+        <aside>
+            <figure>
+                <div id="avatar"></div>
+                <figcaption>Akshay Kashid</figcaption>
+            </figure>
+            <img src="./images/menu.svg" id="hamburger">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#" class="li1" onclick="changeMain('home')">Home</a></li>
+                    <li><a href="#" class="li2" onclick="changeMain('about')">About</a></li>
+                    <li><a href="#" class="li4" onclick="changeMain('project')">Projects</a></li>
+                    <li><a href="#" class="li3" onclick="changeMain('skills')">Skills</a></li>
+                    <li><a href="#" class="li5" onclick="changeMain('contact')">Contact</a></li>
+                </ul>
+                <div class="social">
+                    <!-- <h5 class="text-uppercase">Follow me</h5> -->
+                    <a href="https://www.facebook.com/akshay.kashid.5203/" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/_akshay_kashid_/" target="_blank"> <i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="fab fa-twitter" target="_blank"></i></a>
+                </div>
+            </nav>
+            <footer class="footer-area">
+                <div class="social">
+                    <!-- <h5 class="text-uppercase">Follow me</h5> -->
+                    <a href="https://www.facebook.com/akshay.kashid.5203/" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/_akshay_kashid_/" target="_blank"> <i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="fab fa-twitter" target="_blank"></i></a>
+                </div>
+            </footer>
+        </aside>
+        <!-- navigation end -->
+
+        <!-- Home start -->
+        <main id="home">
+            <div class="intro">
+                <h1><span id="hey">Hey</span> <br> <span id="iam"> I am <br>Akshay Kashid</span></h1>
+                <h3>Full Stack Developer</h3>
+                <a href="mailto:kashid.akshay138@gmail.com"><button type="button" class="button primary-button homebtn1" ><i class="fa fa-envelope"></i>&nbsp;&nbsp;Mail me</button></a> &nbsp;
+                <!-- <a href="./resume/resume.pdf" download="akshaykashidResume.pdf"><button type="button" class="button secondary-button homebtn2"> Get Resume </button></a> -->
+            </div>
+            <div class="vectorArt">
+                <img src="./images/profile-image.jpg" alt="Akshay Kashid art">
+            </div>
+        </main>
+        <!-- Home end -->
+
+        <!-- About start -->
+        <main id="about">
+            <div id="about-container">
+                <h2>
+                    <strong>Let me</strong><br>
+                    <span>introduce</span><br>
+                    <span>myself</span><br>
+                </h2>
+
+                <p class="para">
+                    Hard-working web developer with a flair for creating elegant solutions with quality work.
+                </p>
+                <p class="para">
+                    My core competency lies in creating applications from its inception.I primarily work in MERN stack among the full stack technologies.
+                </p>
+                <p class="para">
+                    As a full stack developer,I Developed an ecommerce webapp, student web portal
+                </p>
+                <p class="para">
+                    Feel free to take a look at my projects
+                </p>
+                <button type="button" class="button" id="downloadid" onclick="changeMain('project')">View Project</button>
+            </div>
+        </main>
+        <!-- About end -->
+
+        <!-- Skills start -->
+        <main id="skills">
+            <h1>Skills</h1>
+            <div id="skills-list">
+               
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>JavaScript - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="indermediate" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>TypeScript - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="indermediate" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+               
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>C Programming - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="indermediate" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>HTML5 - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="advanced" style="background-color: #23b6fa; width: 78%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>CSS3 - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="advanced" style="background-color: #23b6fa; width: 76%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>MySql - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="indermediate" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>MongoDB - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="indermediate" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>Express.js - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="indermediate" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+              
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>Node.js - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="indermediate" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillName">
+                        <h3>Bootstrap - Intermediate</h3>
+                    </div>
+                    <div id="progressbar" style="background-color: black; border-radius: 13px; padding: 3px;">
+                        <div class="advanced" style="background-color: #23b6fa; width: 75%;  height: 20px;border-radius: 10px;"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Skills end  -->
+
+        <!-- Project start  -->
+        <main id="project" class="project">
+            <!-- <h1 style="text-align: center;">Project Yet to be Added <br>Visit later to see all the projects </h1> -->
+            <div class="button-group">
+                <!-- <button type="button" data-filter="*">All</button> -->
+                <button type="button" class="active" id="btn1" data-filter=".fullstack">Full Stack</button>
+                <button type="button" data-filter=".frontend">Frontend App</button>
+                <!-- <button type="button" data-filter=".upcoming">Upcoming</button> -->
+            </div>
+            <div class="project-list grid">
+                <div class="projectitem  element-item fullstack">
+                    <div class="image">
+                        <a href="#netlifyUrl" target="_blank">
+                            <img src="./images/proshop.png" alt="portfolio-1" class="img-fluid" style="border-radius: 5px;border: 1px solid black;">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <div class="title">
+                            <span class="project-title">ProShop</span> <br>
+                            <span class="text-secondary ">An E-commerce site for electronic devices.</span>
+                            <p class="tech-stack">TECH STACK: <br> <img src="https://img.icons8.com/color/48/000000/html-5.png" /><img src="https://img.icons8.com/color/48/000000/css3.png" /><img src="https://img.icons8.com/color/48/000000/mongodb.png" /><img src="https://img.icons8.com/color/48/000000/angularjs.png"
+                                /><img src="https://img.icons8.com/color/48/000000/nodejs.png" />&nbsp;<img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" /></p>
+                        </div>
+                        <div class="buttongroup">
+                            <div class="viewproject">
+                                <div></div>
+                                <a href="#netlifyUrl" target="_blank"> <button class="view-project-btn">View Project</button></a>
+                                <div></div>
+                                
+                            </div>
+                            <div class="githublink">
+                                <div></div>
+                                <a href="#githubFrontendUrl" target="_blank">
+                                    <button class="github-button">
+                                        <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                        </svg>&nbsp; Front End
+                                    </button>
+                                </a>
+                                <a href="#githubBackendUrl" target="_blank">
+                                    <button class="github-button">
+                                         <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                         </svg>&nbsp; Back End
+                                    </button>
+                                </a>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectitem  element-item fullstack">
+                    <div class="image">
+                        <a href="netlifyUrl" target="_blank">
+                            <img src="./images/eduForum.jpg" alt="portfolio-1" class="img-fluid" style="border-radius: 5px;border: 1px solid black;">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <div class="title">
+                            <span class="project-title">EduForum</span> <br>
+                            <span class="text-secondary ">This is question-answering forum and quiz app.</span>
+                            <p class="tech-stack">TECH STACK: <br> <img src="https://img.icons8.com/color/48/000000/html-5.png" /><img src="https://img.icons8.com/color/48/000000/css3.png" /><img src="https://img.icons8.com/color/48/000000/mongodb.png" /><img src="https://img.icons8.com/color/48/000000/angularjs.png"
+                                /><img src="https://img.icons8.com/color/48/000000/nodejs.png" /></p>
+                        </div>
+                        <div class="buttongroup">
+                            <div class="viewproject">
+                                <div></div>
+                                <a href="netlifyUrl" target="_blank"> <button class="view-project-btn">View Project</button></a>
+                                <div></div>
+                            </div>
+                            <div class="githublink">
+                                <div></div>
+                                <a href="githubFrontendurl" target="_blank">
+                                    <button class="github-button">
+                                        <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                        </svg>&nbsp; Front End
+                                    </button>
+                                </a>
+                                <a href="githubbackendurl" target="_blank">
+                                    <button class="github-button">
+                                         <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                         </svg>&nbsp; Back End
+                                    </button>
+                                </a>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projectitem  element-item frontend">
+                    <div class="image">
+                        <a href="https://60719819add5e03bccb6d411--hungry-easley-1ca35c.netlify.app/" target="_blank">
+                            <img src="./images/spotify.jpg" alt="portfolio-1" class="img-fluid" style="border-radius: 5px;border: 1px solid black;">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <div class="title ">
+                            <span class="project-title">Spotify clone app</span> <br>
+                            <span class="text-secondary ">This is clone of spotify</span>
+                            <p class="tech-stack">TECH STACK: <br> <img src="https://img.icons8.com/color/48/000000/html-5.png" /><img src="https://img.icons8.com/color/48/000000/css3.png" /><img src="https://img.icons8.com/color/48/000000/angularjs.png" /></p>
+                        </div>
+                        <div class="buttongroup">
+                            <div class="viewproject">
+                                <div></div>
+                                <a href="https://60719819add5e03bccb6d411--hungry-easley-1ca35c.netlify.app/" target="_blank"> <button class="view-project-btn">View Project</button></a>
+                                <div></div>
+                            </div>
+                            <div class="githublink">
+                                <div></div>
+                                <a href="https://github.com/akshaykashid138/spotify-clone" target="_blank">
+                                    <button class="github-button">
+                                        <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                        </svg>&nbsp; Front End Code 
+                                    </button>
+                                </a>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- project end  -->
+
+        <!-- Contact start  -->
+        <main id="contact">
+
+            <div class="contactImg">
+                <img src="aboutus1.png" id="profileImg" alt="contact">
+            </div>
+            <div class="info">
+                <h1 id="profile" style="border-bottom: 2px solid black;">Profile</h1>
+                <div class="details">
+                    <span class="contact1">
+                        <h3><i class="fa fa-user"></i>&nbsp;Name</h3>
+                       <p > Akshay Kashid</p>
+                    </span>
+                    <span class="contact1">
+                        <h3><i class="fa fa-envelope"></i>&nbsp;Email</h3>
+                        <a href="mailto:kashid.akshay138@gmail.com">kashid.akshay138@gmail.com</a>
+                    </span>
+                    <span class="contact2">
+                        <h3><i class="fa fa-mobile"></i>&nbsp;Contact</h3>
+                        <a href="tel:+917887709470">(+91) 7887709470</a>
+                    </span>
+                    <span class="contact2">
+                        <h3><i class="fa fa-location-arrow"></i>&nbsp;Location</h3>
+                       <p>Kolhapur, Maharashtra, India</p>
+                    </span>
+                    <span class="contact3">
+                        <h3><img src="https://img.icons8.com/android/24/000000/linkedin.png" style="transform: scale(0.9);"/>&nbsp;LinkedIn</h3>
+                       <p ><a href="https://www.linkedin.com/in/akshay-kashid-0195b5145/" target="_blank">view profile</a></p>
+                    </span>
+                    <span class="contact3">
+                        <h3><img src="https://img.icons8.com/material-rounded/24/000000/github.png"/>&nbsp;GitHub</h3>
+                        <a href="https://github.com/akshaykashid138" target="_blank">@AkshayKashid</a>
+                    </span>
+
+                </div>
+            </div>
+        </main>
+        <!-- contact end  -->
+    </div>
+    <!--  Jquery js file  -->
+    <script src="./js/jquery.3.4.1.js"></script>
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <script src="index.js"></script>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
