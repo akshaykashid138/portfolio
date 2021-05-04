@@ -234,7 +234,7 @@ body {
         border-radius: 50%;
         height: 150px;
         width: 150px;
-        background-image: url('avatar.jpg');
+        background-image: url('./images/avatar.JPG');
         background-repeat: no-repeat;
         background-size: 10em;
         margin: 1em auto 0em auto;
